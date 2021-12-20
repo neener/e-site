@@ -1,0 +1,15 @@
+title: Articles
+
+fields:
+  published:
+    label: Published on
+    type: date
+    time: true
+
+  title:
+    label: Title
+    type: text
+
+  text:
+    label: Text
+    type: textarea

@@ -1,0 +1,10 @@
+title: Gallery image
+
+accept: image/*
+
+fields:
+  alt:
+    type: text
+  caption:
+    type: text
+  

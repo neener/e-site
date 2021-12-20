@@ -1,0 +1,9 @@
+title: Home
+
+files: false
+
+pages:
+  template: page
+  sort: flip
+  num: date
+  max: 1

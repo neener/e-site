@@ -1,0 +1,35 @@
+title: Works
+
+sections:
+  drafts:
+    headline: Drafts
+    type: pages
+    layout: cards
+    template: work
+    info: "{{ page.year }}"
+    status: drafts
+    image:
+      ratio: 4/5
+      cover: true
+  
+  unlisted:
+    headline: Unlisted Works
+    type: pages
+    layout: cards
+    template: work
+    info: "{{ page.year }}"
+    status: unlisted
+    image:
+      ratio: 4/5
+      cover: true
+      
+  published:
+    headline: Published Works
+    type: pages
+    layout: cards
+    template: work
+    info: "{{ page.year }}"
+    status: published
+    image:
+      ratio: 4/5
+      cover: true

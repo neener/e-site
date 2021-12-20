@@ -1,0 +1,10 @@
+title: Site
+
+preset: page
+unlisted: true
+
+fields:
+  info:
+    label: Info
+    type: info
+    text: Hi e - here is how to use me
