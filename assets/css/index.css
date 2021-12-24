@@ -110,7 +110,7 @@ figcaption {
   margin-top: 0;
   border: 1px solid grey;
   border-bottom: 0;
-  padding: 6px;
+  padding-left: 6px;
   display: block;
 }
 
@@ -127,7 +127,7 @@ input[type=checkbox] {
   position: inherit;
   cursor: pointer;
   width: 100%;
-  height: 10px;
+  height: 19px;
   z-index: 1;
   opacity: 0;
 }
