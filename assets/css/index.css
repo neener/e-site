@@ -137,7 +137,7 @@ input[type=checkbox] {
   display: block;
   cursor: pointer;
   position: absolute;
-  top: 8px;
+  top: 6px;
 }
 
 /* tab content */
@@ -214,12 +214,20 @@ svg {
 }
 
 .blur {
-  height: 2000px;
-  width: 2000px;
-  background: white;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  left: -11px;
-  top: -10px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.background-blur {
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 
 /* tooltip copy to clipboard */
@@ -302,11 +310,6 @@ footer {
 
   .tooltip{
     text-align: right;
-  }
-
-  .blur {
-    left: -26px;
-    top: -283px;
   }
 
 }
