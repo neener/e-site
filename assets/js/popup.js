@@ -3,10 +3,10 @@ $(function(){
   // PAGE IMAGE BRUTAL LIGHTBOX
   $('.content img').on('click', function(e) {
     e.stopPropagation();
-    console.log('yes');
     $(this).toggleClass("img-zoom");
     $('html').toggleClass("zoom");
     $('body').toggleClass("overflow");
+    $('.overlay').toggleClass("blur");
   });
 
   // Close image if click outside
@@ -14,6 +14,7 @@ $(function(){
       $('.content img').removeClass('img-zoom');
       $('html').removeClass("zoom");
       $('body').removeClass("overflow");
+      $('.overlay').removeClass("blur");
   });
   // #######################
 

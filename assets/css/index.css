@@ -20,7 +20,7 @@ nav {
   position: absolute;
   z-index: 2000;
   position: fixed;
-  background-color: #fff;
+  /* background-color: #fff; */
   text-transform: uppercase;
 }
 
@@ -170,12 +170,18 @@ svg {
   transform: rotate(90deg); 
 }
 
+.press-release {
+  margin-bottom: 10px;
+}
+
 .photography {
   text-align: right;
   color: gray;
   font-style: italic;
   font-size: x-small;
   font-weight: 400;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 /* utctimestamp */
@@ -205,6 +211,15 @@ svg {
 
 .zoom {
   cursor: zoom-out;
+}
+
+.blur {
+  height: 2000px;
+  width: 2000px;
+  background: white;
+  position: absolute;
+  left: -11px;
+  top: -10px;
 }
 
 /* tooltip copy to clipboard */
@@ -267,17 +282,18 @@ footer {
 @media (max-width: 535px) {
 
   nav {
-    width: 100%;
+    width: 350px;
+    margin: auto;
     position: relative;
-    top: 0;
-    left: 0;
-    padding: 10px;
+    padding-bottom: 20px;
+    right: 0;
+    background: none;
   }
 
   .content {
-    width: 100%;
+    width: 93%;
     max-width: initial !important;
-    margin: 0;
+    margin: auto;
   }
 
   .cv-iframe {
@@ -288,4 +304,18 @@ footer {
     text-align: right;
   }
 
+  .blur {
+    left: -26px;
+    top: -283px;
+  }
+
 }
+
+@media not all and (min-resolution:.001dpcm) { 
+  @media {
+    #copy_button, #text_to_copy {
+      color: #000!important;
+      background: linear-gradient(#D8D8D8, #D1D1D1, #BABABA)!important;
+      padding: 1px 7px 2px;
+    }
+  }}

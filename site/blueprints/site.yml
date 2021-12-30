@@ -7,4 +7,4 @@ fields:
   info:
     label: Info
     type: info
-    text: Hi e - here is how to use me
+    text: Hi e - here is how to use me. In the Files section - upload your background image as the first image on top. If you want to change your logo svgs make sure they are prefixed with 'logo-'
