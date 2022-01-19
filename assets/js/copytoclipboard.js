@@ -2,7 +2,6 @@
 
 function copyEmail() {
   var text_to_copy = document.getElementById("text_to_copy").innerHTML;
-  var copy_button = document.getElementById("copy_button");
   
   var temp = document.createElement("INPUT");
   temp.value = text_to_copy;
@@ -13,7 +12,6 @@ function copyEmail() {
   var tool_tip = document.getElementById("myTooltip");
   tool_tip.innerHTML = "Copied!"; 
   };
-
 
 function outFunc() {
   var tool_tip = document.getElementById("myTooltip");

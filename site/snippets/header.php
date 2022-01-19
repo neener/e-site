@@ -33,7 +33,7 @@
 
       <!-- Gather the images from home.yml -->
 
-      <?php foreach($site->images()->filterBy('filename', '*=', 'logo-') as $image): ?>
+      <!-- <?php foreach($site->images()->filterBy('filename', '*=', 'logo-') as $image): ?>
         <?php if($image->hide_from_sidebar() == '1'): ?>
         <?php else: ?>
           <?php $resultstr[] = '"'.$image->url().'"' ?>
@@ -57,7 +57,7 @@
           });
 
         });
-      </script>
+      </script> -->
 
       <!-- ++++ End of homepage easter egg. ++++ -->
   
